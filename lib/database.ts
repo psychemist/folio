@@ -1,8 +1,21 @@
 import Database from 'better-sqlite3'
 import { join } from 'path'
+import { mkdirSync, existsSync } from 'fs'
 
-// Database setup
-const dbPath = join(process.cwd(), 'data', 'portfolio.db')
+// Database setup with directory creation
+const dataDir = join(process.cwd(), 'data')
+const dbPath = join(dataDir, 'portfolio.db')
+
+// Ensure data directory exists
+if (!existsSync(dataDir)) {
+  try {
+    mkdirSync(dataDir, { recursive: true })
+    console.log('📁 Created data directory')
+  } catch (error) {
+    console.error('Failed to create data directory:', error)
+  }
+}
+
 let db: Database.Database
 
 try {
@@ -57,6 +70,7 @@ try {
       responded BOOLEAN DEFAULT 0
     )
   `)
+  console.log('🔄 Using in-memory database fallback')
 }
 
 // Prepared statements for better performance

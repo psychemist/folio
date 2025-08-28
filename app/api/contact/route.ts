@@ -63,7 +63,7 @@ Message: ${message}
 
   try {
     const { data: emailData, error } = await resend.emails.send({
-      from: process.env.CONTACT_FROM_EMAIL || 'portfolio@psychemist.dev',
+      from: process.env.CONTACT_FROM_EMAIL || 'mail@psychemist.dev',
       to: [siteConfig.author.email],
       subject: `New contact form message from ${name}`,
       react: ContactFormEmail({ name, email, message }),
