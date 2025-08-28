@@ -16,7 +16,7 @@ export const metadata: Metadata = {
   authors: [{ name: site.name }],
   creator: site.name,
   icons: {
-    icon: '/brains.png',
+    icon: '/icon.png',
   },
   manifest: '/site.webmanifest',
   openGraph: {
