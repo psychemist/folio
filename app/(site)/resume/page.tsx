@@ -56,7 +56,7 @@ export default function ResumePage() {
             {/* Contact Info */}
             <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between mb-8 pb-8 border-b border-border/40">
               <div>
-                <h2 className="text-3xl font-bold text-foreground mb-2">{site.name}</h2>
+                <h2 className="text-3xl font-bold text-foreground mb-2">{site.author.name}</h2>
                 <p className="text-lg text-muted-foreground mb-4">{site.headline}</p>
                 <div className="flex items-center gap-2 text-muted-foreground mb-2">
                   <MapPin className="w-4 h-4" />
@@ -81,9 +81,6 @@ export default function ResumePage() {
             {/* Professional Summary */}
             <div className="mb-8">
               <h3 className="text-xl font-semibold text-foreground mb-4">Professional Summary</h3>
-              <p className="text-muted-foreground leading-relaxed">
-                {site.bioFormal}
-              </p>
               <p>Passionate about creating technology that enhances human potential while
                 maintaining ethical standards and accessibility. Experience spans full-stack development, 
                 AI/ML applications, and privacy-preserving systems.

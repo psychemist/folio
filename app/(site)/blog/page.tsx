@@ -185,6 +185,17 @@ function BlogPageContent({ posts }: BlogPageProps) {
             </motion.div>
           </>
         )}
+
+        <motion.div
+          className="text-center"
+          >
+          <Link
+            href="/unsubscribe"
+            className="w-full underline decoration-2 underline-offset-4 hover:bg-destructive hover:text-destructive-foreground hover:no-underline transition-all duration-200" 
+            >
+            Unsubscribe
+          </Link>
+        </motion.div>
       </div>
     </main>
   )
