@@ -51,7 +51,7 @@ export function WelcomeEmail({ firstName }: WelcomeEmailProps) {
       <div style={{ marginTop: '30px', paddingTop: '20px', borderTop: '1px solid #e5e7eb', fontSize: '14px', color: '#6b7280' }}>
         <p>
           Want to unsubscribe? 
-          <a href={`https://psychemist.dev/blog#unsubscribe`} style={{ color: '#2563eb' }}>
+          <a href={`https://psychemist.me/blog#unsubscribe`} style={{ color: '#2563eb' }}>
             Visit the blog page
           </a> or reply to this email with &ldquo;unsubscribe&rdquo;.
         </p>
@@ -202,7 +202,7 @@ export function ContactFormEmail({
           <Hr style={hr} />
           <Section style={footer}>
             <Text style={footerText}>
-              This message was sent from your portfolio contact form at psychemist.dev
+              This message was sent from your portfolio contact form at psychemist.me
             </Text>
             <Text style={footerText}>
               Sender IP and other details are logged for security purposes.

@@ -3,7 +3,7 @@ export const siteConfig = {
   headline: "software engineer · future theorist · reality carver",
   location: "lagos, ng",
   description: "Full-stack developer specializing in web dev, blockchain, IoT, and AI/ML. Building innovative applications and exploring the intersection of technology and human cognition.",
-  url: "https://psychemist.dev",
+  url: "https://psychemist.me",
   keywords: ["developer", "engineer", "react", "nextjs", "typescript", "javascript", "python", "solidity", "rust", "blockchain", "ai", "machine learning", "zero-knowledge"],
   author: {
     name: "Ikechukwu Obunadike",

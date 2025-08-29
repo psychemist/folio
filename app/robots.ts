@@ -14,6 +14,6 @@ export default function robots(): MetadataRoute.Robots {
       ],
     },
     // sitemap: 'https://chukwudike.dev/sitemap.xml',
-    sitemap: 'https://psychemist.dev/sitemap.xml',
+    sitemap: 'https://psychemist.me/sitemap.xml',
   }
 }

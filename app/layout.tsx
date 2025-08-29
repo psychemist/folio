@@ -31,7 +31,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: `${site.name} - ${site.headline}`,
     description: site.bioFormal,
-    creator: "@telepsychy",
+    creator: "@hecookedfr",
   },
   robots: {
     index: true,

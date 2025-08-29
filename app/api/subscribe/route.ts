@@ -20,7 +20,7 @@ async function sendWelcomeEmail(email: string, name?: string) {
 
   try {
     const { data, error } = await resend.emails.send({
-      from: process.env.CONTACT_FROM_EMAIL || 'newsletter@psychemist.dev',
+      from: process.env.CONTACT_FROM_EMAIL || 'newsletter@psychemist.me',
       to: [email],
       subject: 'Welcome to my newsletter! 🚀',
       react: WelcomeEmail({ firstName: name, email }),

@@ -1,4 +1,4 @@
-# Portfolio - Modern Developer Portfolio
+# Portfolio
 
 A high-performance, accessible portfolio built with Next.js 14, TypeScript, and modern web technologies.
 
